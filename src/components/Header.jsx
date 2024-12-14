@@ -10,14 +10,14 @@ function Header({ score, highScore, cardsCount }) {
         </h1>
       </div>
 
-      <div className="backdrop-blur rounded px-5">
+      <div className="backdrop-blur rounded px-5 transform -translate-y-2">
         <p className="text-3xl">
           HIGH SCORE: <span>{highScore}</span>
         </p>
       </div>
 
-      <div>
-        <p className="text-4xl backdrop-blur rounded px-3">
+      <div className="transform -translate-y-5">
+        <p className="text-4xl backdrop-blur rounded px-3 ">
           {score} / {cardsCount}
         </p>
       </div>
