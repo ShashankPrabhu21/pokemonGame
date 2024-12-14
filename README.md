@@ -1,4 +1,4 @@
-# PokéMatch
+# Pokémon Memory Game
 
 ![Pokematch screenshot](./pokematch.png)
 
